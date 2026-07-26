@@ -1,13 +1,11 @@
-using System;
-
 public class Comment
 {
-    public string CommenterName { get; set; }
+    public string Name { get; set; }
     public string CommentText { get; set; }
 
-    public Comment(string commenterName, string commentText)
+    public Comment(string name, string commentText)
     {
-        CommenterName = commenterName;
+        Name = name;
         CommentText = commentText;
     }
 }
